@@ -37,7 +37,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.ArrayAdapter;
 
-public class AbstractGroupedAdapter<H, I> extends ArrayAdapter<Object>
+public abstract class AbstractGroupedAdapter<H, I> extends ArrayAdapter<Object>
 {
 	protected Map<H, List<I>> itemsMap;
 	protected List<Object> items;
